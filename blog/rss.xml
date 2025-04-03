@@ -4,10 +4,26 @@
         <title>My Site Blog</title>
         <link>https://futaboshioto.github.io/ottotto-blog/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WEBアプリのバックエンドエンジニアになって1年が経つのでブログを始めてみる]]></title>
+            <link>https://futaboshioto.github.io/ottotto-blog/blog/2025/04/03</link>
+            <guid>https://futaboshioto.github.io/ottotto-blog/blog/2025/04/03</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[初めまして、ふたぼしおと（PN）です。]]></description>
+            <content:encoded><![CDATA[<p>初めまして、ふたぼしおと（PN）です。</p>
+<p>つい先日WEBアプリのバックエンドエンジニアになって2年目になったのでこれを機にブログを始めてみようと思う</p>
+<p>一旦「Docusauru」とgithub Pagesを使ってサイトを立ち上げることには成功した
+これが何よりの成果だ</p>
+<p>ぶっちゃけた話をすると、立ち上げ準備に丸３日かかったwwww</p>
+<p>いや〜まさかこんなに詰まるとは思ってなかった。</p>
+<p>その辺りも後々明日以降で話していこうと思う</p>
+<p>現状サイトは「Docusaurus」のデフォルトのままこれもちょっとづつ変えながら変え方もドキュメントに残しつつ頑張っていきたいと思う</p>
+<p>今日は短いがこんなところにしておこう</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://futaboshioto.github.io/ottotto-blog/blog/welcome</link>

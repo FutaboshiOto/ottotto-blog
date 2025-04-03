@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://futaboshioto.github.io/ottotto-blog/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2025-04-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://futaboshioto.github.io/ottotto-blog/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://futaboshioto.github.io/ottotto-blog/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WEBアプリのバックエンドエンジニアになって1年が経つのでブログを始めてみる]]></title>
+        <id>https://futaboshioto.github.io/ottotto-blog/blog/2025/04/03</id>
+        <link href="https://futaboshioto.github.io/ottotto-blog/blog/2025/04/03"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[初めまして、ふたぼしおと（PN）です。]]></summary>
+        <content type="html"><![CDATA[<p>初めまして、ふたぼしおと（PN）です。</p>
+<p>つい先日WEBアプリのバックエンドエンジニアになって2年目になったのでこれを機にブログを始めてみようと思う</p>
+<p>一旦「Docusauru」とgithub Pagesを使ってサイトを立ち上げることには成功した
+これが何よりの成果だ</p>
+<p>ぶっちゃけた話をすると、立ち上げ準備に丸３日かかったwwww</p>
+<p>いや〜まさかこんなに詰まるとは思ってなかった。</p>
+<p>その辺りも後々明日以降で話していこうと思う</p>
+<p>現状サイトは「Docusaurus」のデフォルトのままこれもちょっとづつ変えながら変え方もドキュメントに残しつつ頑張っていきたいと思う</p>
+<p>今日は短いがこんなところにしておこう</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://futaboshioto.github.io/ottotto-blog/blog/welcome</id>
