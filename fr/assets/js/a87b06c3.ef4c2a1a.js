@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkottotto_blog=self.webpackChunkottotto_blog||[]).push([[5143],{2800:t=>{t.exports=JSON.parse('{"metadata":{"permalink":"/ottotto-blog/fr/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
