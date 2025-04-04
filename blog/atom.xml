@@ -9,8 +9,8 @@
     <icon>https://futaboshioto.github.io/ottotto-blog/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[WEBアプリのバックエンドエンジニアになって1年が経つのでブログを始めてみる]]></title>
-        <id>https://futaboshioto.github.io/ottotto-blog/blog/2025/04/03</id>
-        <link href="https://futaboshioto.github.io/ottotto-blog/blog/2025/04/03"/>
+        <id>https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-03</id>
+        <link href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-03"/>
         <updated>2025-04-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[初めまして、ふたぼしおと（PN）です。]]></summary>
         <content type="html"><![CDATA[<p>初めまして、ふたぼしおと（PN）です。</p>
@@ -22,6 +22,9 @@
 <p>その辺りも後々明日以降で話していこうと思う</p>
 <p>現状サイトは「Docusaurus」のデフォルトのままこれもちょっとづつ変えながら変え方もドキュメントに残しつつ頑張っていきたいと思う</p>
 <p>今日は短いがこんなところにしておこう</p>]]></content>
+        <author>
+            <name>ふたぼしおと</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
