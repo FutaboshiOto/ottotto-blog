@@ -82,6 +82,12 @@ const config: Config = {
           position: 'left',
           label: 'アーカイブ',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'certificationStudySidebar',
+          position: 'left',
+          label: '資格試験'
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
