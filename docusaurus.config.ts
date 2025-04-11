@@ -80,7 +80,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'engineeringSidebar',
           position: 'left',
-          label: 'テクノロジー',
+          label: '開発',
         },
         {
           type: 'docSidebar',
