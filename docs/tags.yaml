@@ -1,0 +1,9 @@
+finance:
+  label: '金融'
+  permalink: '/finance'
+  description: '金融に関する記事'
+
+development:
+  label: '開発'
+  permalink: '/development'
+  description: 'WEBアプリ開発に関する記事'
