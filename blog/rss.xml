@@ -4,10 +4,75 @@
         <title>My Site Blog</title>
         <link>https://futaboshioto.github.io/ottotto-blog/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Thu, 03 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[今週の学習内容]]></title>
+            <link>https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07</link>
+            <guid>https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07</guid>
+            <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[今週の週次報告を始めていこうと思う！！]]></description>
+            <content:encoded><![CDATA[<p>今週の週次報告を始めていこうと思う！！
+今回に限り先週分の学習内容も反映する。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="目次">目次<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#%E7%9B%AE%E6%AC%A1" class="hash-link" aria-label="目次 への直接リンク" title="目次 への直接リンク">​</a></h2>
+<ul>
+<li>Docusaurusとgithub pagesを用いたドキュメント兼ブログの立ち上げ方<!-- -->
+<ul>
+<li>Docusaurusのインストール方法</li>
+<li>github pagesの初期設定</li>
+<li>Docusaurusの記事をgithub pagesに上げるための初期設定</li>
+<li>ビルド、デプロイの方法</li>
+</ul>
+</li>
+<li>Docusaurusのナビゲーションバーの設定方法</li>
+<li>今後のブログ方針</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="docusaurusとgithub-pagesを用いたドキュメント兼ブログの立ち上げ方法">Docusaurusとgithub pagesを用いたドキュメント兼ブログの立ち上げ方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#docusaurus%E3%81%A8github-pages%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E5%85%BC%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E7%AB%8B%E3%81%A1%E4%B8%8A%E3%81%92%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Docusaurusとgithub pagesを用いたドキュメント兼ブログの立ち上げ方法 への直接リンク" title="Docusaurusとgithub pagesを用いたドキュメント兼ブログの立ち上げ方法 への直接リンク">​</a></h2>
+<p>何を学んだのかをメモがわりにここに記載していきたいと思う</p>
+<p>具体的な手順に関しては後々ドキュメントに残そうと思うのでここには記述しないでおく</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="docusaurusのインストール方法">Docusaurusのインストール方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#docusaurus%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Docusaurusのインストール方法 への直接リンク" title="Docusaurusのインストール方法 への直接リンク">​</a></h3>
+<p>インストール方法に関してはそんなに難しいとは思わなかった。
+公式ドキュメントにあるコマンドを実行すれば良いだけだったからだ</p>
+<p>強いていうのであればGitHubリポジトリを作成、クローンしてからだとプロジェクト直下にファイルが生成されないのが難点だった。
+もしかすると方法があるかもしれないのだが「すでにファイルが存在しています。」というエラーが出てしまう..ﾄﾞｳｼﾃ</p>
+<p>結局作成したファイルをGitHubのリポジトリにpushする形になった。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="github-pagesの初期設定">github pagesの初期設定<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#github-pages%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A" class="hash-link" aria-label="github pagesの初期設定 への直接リンク" title="github pagesの初期設定 への直接リンク">​</a></h3>
+<p>github pagesの初期設定もそんなに難しくは感じなかった。<br>
+<!-- -->表示するブランチを設定してあげて少し待てば簡単に表示できる。</p>
+<p>ただし注意しないといけないのは初期設定自体は簡単なのだが期待通りの画面表示をするのは結構骨が折れるということ。<br>
+<!-- -->そのあたりは、デプロイにあたってのトラブルの可能性が高い。</p>
+<p>もし <code>README</code> のみが表示されている場合はデプロイに問題がある可能性が高い。<br>
+<!-- -->そうなっている場合はこの段階はとりあえずクリアしたとしておいた方がいいと思う。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="docusaurusの記事をgithub-pagesに上げるための初期設定">Docusaurusの記事をgithub pagesに上げるための初期設定<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#docusaurus%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92github-pages%E3%81%AB%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A" class="hash-link" aria-label="Docusaurusの記事をgithub pagesに上げるための初期設定 への直接リンク" title="Docusaurusの記事をgithub pagesに上げるための初期設定 への直接リンク">​</a></h3>
+<p>ここからが結構大変
+変更しないといけない項目が結構存在している。</p>
+<p>これらを設定する方法はいくつか存在し、configをいじる方法と、環境変数をいじる方法、IDEで実行する際の環境変数を設定する方法などがある。<br>
+<!-- -->個人的に好きなのはIDEで管理する方法</p>
+<p>変更が楽な上確認もすぐできる。<br>
+<!-- -->コマンドに慣れている人なんかはローカルの環境変数をいじるのが楽なのかもしれない。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ビルドデプロイの方法">ビルド、デプロイの方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#%E3%83%93%E3%83%AB%E3%83%89%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%81%AE%E6%96%B9%E6%B3%95" class="hash-link" aria-label="ビルド、デプロイの方法 への直接リンク" title="ビルド、デプロイの方法 への直接リンク">​</a></h3>
+<p>ビルド、デプロイに関してはやること自体はとても簡単なのだが、エラーが発生した際に解消するのが厄介</p>
+<p>ここでエラーが出ると初期設定に間違いがないかの確認をしないといけなかったりmodule内部をいじらないといけなかったり...</p>
+<p>実際私はnode_module内部を少し自分用に変更している。<br>
+<!-- -->もちろんこの変更は開発メンバーとは共有できない。</p>
+<p>個人で開発しているから使える最終奥義的な変更を加えてしまっている。</p>
+<p>そのためGitHub Actionsを用いたデプロイ方法を勉強できればいいなと個人的には思っている。<br>
+<!-- -->ここから頑張ることになるだろう</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="docusaurusのナビゲーションバーの設定方法">Docusaurusのナビゲーションバーの設定方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#docusaurus%E3%81%AE%E3%83%8A%E3%83%93%E3%82%B2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%90%E3%83%BC%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Docusaurusのナビゲーションバーの設定方法 への直接リンク" title="Docusaurusのナビゲーションバーの設定方法 への直接リンク">​</a></h2>
+<p>今週学んだことの最後はDocusaurusのナビゲーションバーの設定方法だ。
+今回は試しに資格勉強という項目を追加してみた。</p>
+<p>今後撮ってみたい資格なんかもたくさんあるからここにちょっとばかしメモしていけたらなと思う。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="今後のブログ方針">今後のブログ方針<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#%E4%BB%8A%E5%BE%8C%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E6%96%B9%E9%87%9D" class="hash-link" aria-label="今後のブログ方針 への直接リンク" title="今後のブログ方針 への直接リンク">​</a></h2>
+<p>ブログではこのように１週間で学んだことを書き記していこうと思う</p>
+<p>その後ドキュメントを作成し、翌週以降で作成したことを発表できればいいなと思っている。</p>
+<p>この辺りは試行錯誤をしてかなと思っている。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="〆">〆<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#%E3%80%86" class="hash-link" aria-label="〆 への直接リンク" title="〆 への直接リンク">​</a></h2>
+<p>今回はこの辺りにしよう。
+変な口調の変なやつが書くブログだが興味があればこれからもみていってほしい。</p>
+<p>ここまで読んでくれてありがとう。</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[WEBアプリのバックエンドエンジニアになって1年が経つのでブログを始めてみる]]></title>
             <link>https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-03</link>
