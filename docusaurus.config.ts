@@ -78,15 +78,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'engineeringSidebar',
           position: 'left',
-          label: 'アーカイブ',
+          label: 'テクノロジー',
         },
         {
           type: 'docSidebar',
           sidebarId: 'certificationStudySidebar',
           position: 'left',
-          label: '資格試験'
+          label: '資格勉強'
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
