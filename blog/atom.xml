@@ -121,9 +121,6 @@
             <name>Yangshun Tay</name>
             <uri>https://github.com/yangshun</uri>
         </author>
-        <category label="facebook" term="facebook"/>
-        <category label="hello" term="hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[MDX Blog Post]]></title>
@@ -171,8 +168,6 @@
             <name>Yangshun Tay</name>
             <uri>https://github.com/yangshun</uri>
         </author>
-        <category label="hello" term="hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[First Blog Post]]></title>
@@ -190,7 +185,5 @@
             <name>Yangshun Tay</name>
             <uri>https://github.com/yangshun</uri>
         </author>
-        <category label="hola" term="hola"/>
-        <category label="Docusaurus" term="Docusaurus"/>
     </entry>
 </feed>
