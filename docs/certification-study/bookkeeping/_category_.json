@@ -1,8 +1,4 @@
 {
-  "label": "簿記2級",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "簿記2級に関する情報をこちらにまとめていきたいと思います。"
-  }
+  "label": "日商簿記2級",
+  "position": 2
 }
