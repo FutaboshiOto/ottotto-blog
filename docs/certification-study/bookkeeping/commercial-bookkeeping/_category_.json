@@ -1,0 +1,9 @@
+{
+  "label": "商業簿記",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "slug": "category/bookkeeping/commercial",
+    "description": "商業簿記に関する記事を書いていきます"
+  }
+}

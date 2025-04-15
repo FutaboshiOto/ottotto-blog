@@ -17,7 +17,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'FutaboshiOto', // Usually your GitHub org/user name.
+  organizationName: 'FutaboshiOto', // Usually your GitHub org/username.
   projectName: 'ottotto-blog', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -70,7 +70,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'おっとっと.log',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -78,9 +78,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'engineeringSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '開発',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'certificationStudySidebar',
+          position: 'left',
+          label: '資格勉強'
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -97,8 +103,12 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
+              label: '資格勉強',
+              to: '/docs/certification-study'
+            },
+            {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/tutorial/intro',
             },
           ],
         },
