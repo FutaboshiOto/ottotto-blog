@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkottotto_blog=self.webpackChunkottotto_blog||[]).push([[7490],{1737:o=>{o.exports=JSON.parse('{"tags":[{"label":"finance","permalink":"/ottotto-blog/en/docs/tags/finance","count":2},{"label":"bookkeeping","permalink":"/ottotto-blog/en/docs/tags/bookkeeping","count":2}]}')}}]);
