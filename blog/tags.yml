@@ -12,3 +12,8 @@ finance:
   label: Finance
   permalink: /finance
   description: 金融関連
+
+memo:
+  label: memo
+  permalink: /memo
+  description: メモ
