@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://futaboshioto.github.io/ottotto-blog/blog</id>
-    <title>My Site Blog</title>
-    <updated>2025-04-07T00:00:00.000Z</updated>
+    <title>おっとっと.log Blog</title>
+    <updated>2025-04-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://futaboshioto.github.io/ottotto-blog/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>おっとっと.log Blog</subtitle>
     <icon>https://futaboshioto.github.io/ottotto-blog/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[メモ 2025年4月16日]]></title>
+        <id>https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-16</id>
+        <link href="https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-16"/>
+        <updated>2025-04-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2025年4月16日 日次メモ]]></summary>
+        <content type="html"><![CDATA[<p>2025年4月16日 日次メモ</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="テスト設計">テスト設計<a href="https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-16#%E3%83%86%E3%82%B9%E3%83%88%E8%A8%AD%E8%A8%88" class="hash-link" aria-label="テスト設計 への直接リンク" title="テスト設計 への直接リンク">​</a></h2>
+<ul>
+<li>機能テスト設計<!-- -->
+<ul>
+<li>確認観点<!-- -->
+<ul>
+<li>入り口の確認</li>
+<li>各パーツ文言</li>
+<li>アクション</li>
+<li>入力値</li>
+<li>ボタン</li>
+</ul>
+</li>
+<li>確認項目一覧<!-- -->
+<ul>
+<li>確認観点を元にチェックが必要な項目洗い出す</li>
+</ul>
+</li>
+<li>実行パターン<!-- -->
+<ul>
+<li>因子と水準を元にデシジョンテーブルを作成</li>
+<li>デシジョンテーブルと項目、期待値を結びつける</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></content>
+        <author>
+            <name>ふたぼしおと</name>
+        </author>
+        <category label="memo" term="memo"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[今週の学習内容]]></title>
         <id>https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07</id>
