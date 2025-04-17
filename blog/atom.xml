@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://futaboshioto.github.io/ottotto-blog/blog</id>
     <title>おっとっと.log Blog</title>
-    <updated>2025-04-16T00:00:00.000Z</updated>
+    <updated>2025-04-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://futaboshioto.github.io/ottotto-blog/blog"/>
     <subtitle>おっとっと.log Blog</subtitle>
     <icon>https://futaboshioto.github.io/ottotto-blog/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[メモ 2025年4月17日]]></title>
+        <id>https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-17</id>
+        <link href="https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-17"/>
+        <updated>2025-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2025年4月17日 日次メモ]]></summary>
+        <content type="html"><![CDATA[<p>2025年4月17日 日次メモ</p>
+<p><a href="https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-16">前日分メモ</a></p>]]></content>
+        <author>
+            <name>ふたぼしおと</name>
+        </author>
+        <category label="memo" term="memo"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[メモ 2025年4月16日]]></title>
         <id>https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-16</id>

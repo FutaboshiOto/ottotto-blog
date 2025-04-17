@@ -4,10 +4,20 @@
         <title>おっとっと.log Blog</title>
         <link>https://futaboshioto.github.io/ottotto-blog/blog</link>
         <description>おっとっと.log Blog</description>
-        <lastBuildDate>Wed, 16 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[メモ 2025年4月17日]]></title>
+            <link>https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-17</link>
+            <guid>https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-17</guid>
+            <pubDate>Thu, 17 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[2025年4月17日 日次メモ]]></description>
+            <content:encoded><![CDATA[<p>2025年4月17日 日次メモ</p>
+<p><a href="https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-16">前日分メモ</a></p>]]></content:encoded>
+            <category>memo</category>
+        </item>
         <item>
             <title><![CDATA[メモ 2025年4月16日]]></title>
             <link>https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-16</link>
