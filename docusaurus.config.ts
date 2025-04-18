@@ -59,6 +59,9 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          async processBlogPosts({blogPosts}){
+            return blogPosts.filter(post => !post.metadata.frontMatter.draft);
+          },
         },
         theme: {
           customCss: './src/css/custom.css',
