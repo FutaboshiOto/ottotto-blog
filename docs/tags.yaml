@@ -7,3 +7,8 @@ development:
   label: '開発'
   permalink: '/development'
   description: 'WEBアプリ開発に関する記事'
+
+docusaurus:
+  label: 'Docusaurus'
+  permalink: '/docusaurus'
+  description: 'Docusaurusに関する記事'
