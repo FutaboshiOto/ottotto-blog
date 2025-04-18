@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkottotto_blog=self.webpackChunkottotto_blog||[]).push([[1126],{4754:o=>{o.exports=JSON.parse('{"tags":[{"label":"memo","permalink":"/ottotto-blog/blog/tags/memo","description":"\u30e1\u30e2","count":3},{"label":"Docusaurus","permalink":"/ottotto-blog/blog/tags/docusaurus","description":"Docusaurus tag description","count":1}]}')}}]);

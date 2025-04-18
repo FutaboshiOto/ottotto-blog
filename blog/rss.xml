@@ -4,10 +4,25 @@
         <title>おっとっと.log Blog</title>
         <link>https://futaboshioto.github.io/ottotto-blog/blog</link>
         <description>おっとっと.log Blog</description>
-        <lastBuildDate>Thu, 17 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[メモ 2025年4月18日]]></title>
+            <link>https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-18</link>
+            <guid>https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-18</guid>
+            <pubDate>Fri, 18 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[2025年4月18日 日次メモ]]></description>
+            <content:encoded><![CDATA[<p>2025年4月18日 日次メモ</p>
+<p>少し方針変更</p>
+<p>日時メモを利用しようとしていたが、正直前日分の資料に書き加えたいという事象がかなり発生することに気がついた。<br>
+<!-- -->そのため、ブログはブログ、ドキュメントはドキュメントと役割をわけブログにはドキュメントのリンクを貼るなどして対応しようと思う</p>
+<p>今後も続けていきたいのは週次報告<br>
+<!-- -->やはり学習した内容を毎週ふりかえるのは自分的にもかなり有意義に思う</p>
+<p>すまないが日次報告はこれにて終了とする。</p>]]></content:encoded>
+            <category>memo</category>
+        </item>
         <item>
             <title><![CDATA[メモ 2025年4月17日]]></title>
             <link>https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-17</link>

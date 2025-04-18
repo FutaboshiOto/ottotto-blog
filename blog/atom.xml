@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://futaboshioto.github.io/ottotto-blog/blog</id>
     <title>おっとっと.log Blog</title>
-    <updated>2025-04-17T00:00:00.000Z</updated>
+    <updated>2025-04-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://futaboshioto.github.io/ottotto-blog/blog"/>
     <subtitle>おっとっと.log Blog</subtitle>
     <icon>https://futaboshioto.github.io/ottotto-blog/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[メモ 2025年4月18日]]></title>
+        <id>https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-18</id>
+        <link href="https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-18"/>
+        <updated>2025-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2025年4月18日 日次メモ]]></summary>
+        <content type="html"><![CDATA[<p>2025年4月18日 日次メモ</p>
+<p>少し方針変更</p>
+<p>日時メモを利用しようとしていたが、正直前日分の資料に書き加えたいという事象がかなり発生することに気がついた。<br>
+<!-- -->そのため、ブログはブログ、ドキュメントはドキュメントと役割をわけブログにはドキュメントのリンクを貼るなどして対応しようと思う</p>
+<p>今後も続けていきたいのは週次報告<br>
+<!-- -->やはり学習した内容を毎週ふりかえるのは自分的にもかなり有意義に思う</p>
+<p>すまないが日次報告はこれにて終了とする。</p>]]></content>
+        <author>
+            <name>ふたぼしおと</name>
+        </author>
+        <category label="memo" term="memo"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[メモ 2025年4月17日]]></title>
         <id>https://futaboshioto.github.io/ottotto-blog/blog/memo-2025-04-17</id>
