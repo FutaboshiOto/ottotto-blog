@@ -100,6 +100,11 @@ const config: Config = {
         // },
       ],
     },
+    blog: {
+      sidebar: {
+        groupByYear: true
+      },
+    },
     footer: {
       style: 'dark',
       links: [
