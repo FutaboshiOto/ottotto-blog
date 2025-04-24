@@ -45,6 +45,7 @@ const config: Config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
           showLastUpdateTime: true,
           feedOptions: {
@@ -93,6 +94,7 @@ const config: Config = {
           label: '資格勉強'
         },
         {to: '/blog', label: 'Blog', position: 'right'},
+        {to: '/finance-blog', label: '経済', position: 'right'}
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -100,11 +102,13 @@ const config: Config = {
         // },
       ],
     },
+
     blog: {
       sidebar: {
         groupByYear: true
       },
     },
+
     footer: {
       style: 'dark',
       links: [
@@ -154,11 +158,23 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'finance-blog',
+        routeBasePath: 'finance-blog',
+        path: './finance-blog'
+      }
+    ]
+  ]
 };
 
 export default config;
