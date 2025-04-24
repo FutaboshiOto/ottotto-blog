@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkottotto_blog=self.webpackChunkottotto_blog||[]).push([[1572],{3050:t=>{t.exports=JSON.parse('{"metadata":{"permalink":"/ottotto-blog/finance-blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
