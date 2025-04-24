@@ -1,7 +1,7 @@
 import React, {memo, type ReactNode} from 'react';
 import {groupBy, useThemeConfig} from '@docusaurus/theme-common';
 // 変更前のインポート
-// import {groupBlogSidebarItemsByYear} from '@docusaurus/plugin-content-blog/client';
+import {groupBlogSidebarItemsByYear} from '@docusaurus/plugin-content-blog/client';
 import Heading from '@theme/Heading';
 import type {Props} from '@theme/BlogSidebar/Content';
 import type {BlogSidebarItem} from "@docusaurus/plugin-content-blog";
@@ -27,7 +27,8 @@ function BlogSidebarMonthGroup({
 
 function BlogSidebarContent({
   items,
-  yearGroupHeadingClassName,
+  // Propsでは年になっているがこちらは変更できないので名前だけ上書き
+  yearGroupHeadingClassName: monthGroupHeadingClassName,
   ListComponent,
 }: Props): ReactNode {
   const themeConfig = useThemeConfig();
@@ -39,7 +40,7 @@ function BlogSidebarContent({
           <BlogSidebarMonthGroup
             key={month}
             month={month}
-            monthGroupHeadingClassName={yearGroupHeadingClassName}>
+            monthGroupHeadingClassName={monthGroupHeadingClassName}>
             <ListComponent items={monthItems} />
           </BlogSidebarMonthGroup>
         ))}
