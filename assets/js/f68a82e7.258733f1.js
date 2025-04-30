@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkottotto_blog=self.webpackChunkottotto_blog||[]).push([[3868],{9656:o=>{o.exports=JSON.parse('{"blogBasePath":"/ottotto-blog/economy-blog","blogTitle":"Blog","authorsListPath":"/ottotto-blog/economy-blog/authors"}')}}]);

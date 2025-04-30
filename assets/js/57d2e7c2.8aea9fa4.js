@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkottotto_blog=self.webpackChunkottotto_blog||[]).push([[1078],{882:o=>{o.exports=JSON.parse('{"tags":[{"label":"japan","permalink":"/ottotto-blog/economy-blog/tags/japan","count":1},{"label":"usa","permalink":"/ottotto-blog/economy-blog/tags/usa","count":1}]}')}}]);

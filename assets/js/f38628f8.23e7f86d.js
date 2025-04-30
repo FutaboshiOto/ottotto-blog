@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkottotto_blog=self.webpackChunkottotto_blog||[]).push([[3192],{2987:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u4eca\u65e5\u306e\u7d4c\u6e08\u30cb\u30e5\u30fc\u30b9","permalink":"/ottotto-blog/economy-blog/economy-2025-04-25","unlisted":false,"date":"2025-04-25T00:00:00.000Z"}]}')}}]);

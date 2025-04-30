@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkottotto_blog=self.webpackChunkottotto_blog||[]).push([[2674],{9419:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"","permalink":"/ottotto-blog/finance-blog/2025/04/23/","unlisted":false,"date":"2025-04-23T00:00:00.000Z"}]}')}}]);

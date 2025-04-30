@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkottotto_blog=self.webpackChunkottotto_blog||[]).push([[6123],{248:t=>{t.exports=JSON.parse('{"blogBasePath":"/ottotto-blog/finance-blog","blogTitle":"Blog","authorsListPath":"/ottotto-blog/finance-blog/authors"}')}}]);

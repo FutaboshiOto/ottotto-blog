@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkottotto_blog=self.webpackChunkottotto_blog||[]).push([[1494],{6720:o=>{o.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"economy-blog"}')}}]);
