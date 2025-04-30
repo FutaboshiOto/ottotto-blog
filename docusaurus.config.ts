@@ -94,7 +94,7 @@ const config: Config = {
           label: '資格勉強'
         },
         {to: '/blog', label: 'Blog', position: 'right'},
-        {to: '/finance-blog', label: '経済', position: 'right'}
+        {to: '/economy-blog', label: '経済', position: 'right'}
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -169,9 +169,9 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-blog',
       {
-        id: 'finance-blog',
-        routeBasePath: 'finance-blog',
-        path: './finance-blog'
+        id: 'economy-blog',
+        routeBasePath: 'economy-blog',
+        path: './economy-blog'
       }
     ]
   ]
