@@ -173,11 +173,11 @@ const config: Config = {
         routeBasePath: 'economy-blog',
         path: './economy-blog'
       },
+    ],
+    [
       '@docusaurus/plugin-google-tag-manager',
       {
-        googleTagManager: {
-          containerId: 'GTM-TF4K38PF',
-        },
+        containerId: 'GTM-TF4K38PF',
       },
     ],
   ],
