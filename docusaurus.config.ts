@@ -167,17 +167,17 @@ const config: Config = {
 
   plugins: [
     [
+      '@docusaurus/plugin-google-tag-manager',
+      {
+        containerId: 'GTM-TF4K38PF',
+      },
+    ],
+    [
       '@docusaurus/plugin-content-blog',
       {
         id: 'economy-blog',
         routeBasePath: 'economy-blog',
         path: './economy-blog'
-      },
-    ],
-    [
-      '@docusaurus/plugin-google-tag-manager',
-      {
-        containerId: 'GTM-TF4K38PF',
       },
     ],
   ],
