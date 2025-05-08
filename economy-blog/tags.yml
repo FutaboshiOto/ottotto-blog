@@ -1,0 +1,12 @@
+world:
+  label: 世界
+  permalink: /world-economy
+  description: 世界の経済ニュース
+Japan:
+  label: 日本
+  permalink: /japan-economy
+  description: 日本の経済ニュース
+USA:
+  label: 米国
+  permalink: /usa-economy
+  description: 米国の経済ニュース

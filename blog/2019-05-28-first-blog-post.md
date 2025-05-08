@@ -2,6 +2,7 @@
 slug: first-blog-post
 title: First Blog Post
 authors: [slorber, yangshun]
+draft: true
 ---
 
 Lorem ipsum dolor sit amet...

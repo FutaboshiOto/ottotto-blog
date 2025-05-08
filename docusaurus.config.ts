@@ -45,6 +45,7 @@ const config: Config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
           showLastUpdateTime: true,
           feedOptions: {
@@ -59,6 +60,9 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          async processBlogPosts({blogPosts}){
+            return blogPosts.filter(post => !post.metadata.frontMatter.draft);
+          },
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -90,6 +94,7 @@ const config: Config = {
           label: '資格勉強'
         },
         {to: '/blog', label: 'Blog', position: 'right'},
+        {to: '/economy-blog', label: '経済', position: 'right'}
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -97,6 +102,13 @@ const config: Config = {
         // },
       ],
     },
+
+    blog: {
+      sidebar: {
+        groupByYear: true
+      },
+    },
+
     footer: {
       style: 'dark',
       links: [
@@ -146,11 +158,29 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  plugins: [
+    [
+      '@docusaurus/plugin-google-tag-manager',
+      {
+        containerId: 'GTM-TF4K38PF',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'economy-blog',
+        routeBasePath: 'economy-blog',
+        path: './economy-blog'
+      },
+    ],
+  ],
 };
 
 export default config;
