@@ -37,13 +37,7 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        docs: false,
         blog: {
           blogSidebarCount: 'ALL',
           showReadingTime: true,
@@ -52,11 +46,8 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -180,6 +171,20 @@ const config: Config = {
         path: './economy-blog'
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        path: 'docs',
+        routeBasePath: 'docs',
+        sidebarPath: './sidebars.ts',
+        exclude: [
+          '**/obsidian/**',        // obsidianディレクトリ配下を除外
+          '**/.obsidian/**',       // Obsidianの設定ディレクトリを除外
+          '**/*.obsidian',         // Obsidianのメタデータファイルを除外
+        ],
+        editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+      }
+    ]
   ],
 };
 
