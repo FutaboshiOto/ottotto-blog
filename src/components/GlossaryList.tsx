@@ -13,7 +13,7 @@ interface GlossaryListProps {
 const GlossaryList: React.FC<GlossaryListProps> = ({ terms }) => {
   // 日本語とアルファベットで分類
   const japaneseTerms = terms.filter(term => /^[ぁ-んァ-ン一-龯]/.test(term.reading));
-  const alphabetTerms = terms.filter(term => /^[a-zA-Z]/.test(term.reading));
+  const alphabetTerms = terms.filter(term => !/^[ぁ-んァ-ン一-龯]/.test(term.reading));
 
   // 読み仮名でソート
   const sortedJapaneseTerms = japaneseTerms.sort((a, b) => a.reading.localeCompare(b.reading, 'ja'));
