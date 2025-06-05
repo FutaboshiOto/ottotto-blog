@@ -20,7 +20,7 @@
 <p>ちなみになのだが何故か月曜は時間が結構あったのでみっちりかけている。
 基本的に毎週この分量になることはないと思うのでご理解いただきたい。
 （そのためにドキュメントにまとめて見やすくしようとしている）</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="今後の記述予定">今後の記述予定<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#%E4%BB%8A%E5%BE%8C%E3%81%AE%E8%A8%98%E8%BF%B0%E4%BA%88%E5%AE%9A" class="hash-link" aria-label="今後の記述予定 への直接リンク" title="今後の記述予定 への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_loeA" id="今後の記述予定">今後の記述予定<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#%E4%BB%8A%E5%BE%8C%E3%81%AE%E8%A8%98%E8%BF%B0%E4%BA%88%E5%AE%9A" class="hash-link" aria-label="今後の記述予定 への直接リンク" title="今後の記述予定 への直接リンク">​</a></h2>
 <ul>
 <li>ブログ用サイドバーの編集方法<!-- -->
 <ul>
@@ -46,7 +46,7 @@
 </li>
 <li>強調表示</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ブログ用サイドバーの編集方法">ブログ用サイドバーの編集方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#%E3%83%96%E3%83%AD%E3%82%B0%E7%94%A8%E3%82%B5%E3%82%A4%E3%83%89%E3%83%90%E3%83%BC%E3%81%AE%E7%B7%A8%E9%9B%86%E6%96%B9%E6%B3%95" class="hash-link" aria-label="ブログ用サイドバーの編集方法 への直接リンク" title="ブログ用サイドバーの編集方法 への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_loeA" id="ブログ用サイドバーの編集方法">ブログ用サイドバーの編集方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#%E3%83%96%E3%83%AD%E3%82%B0%E7%94%A8%E3%82%B5%E3%82%A4%E3%83%89%E3%83%90%E3%83%BC%E3%81%AE%E7%B7%A8%E9%9B%86%E6%96%B9%E6%B3%95" class="hash-link" aria-label="ブログ用サイドバーの編集方法 への直接リンク" title="ブログ用サイドバーの編集方法 への直接リンク">​</a></h2>
 <p>Docusaurusのブログ用サイドバーの編集方法を記していこうと思う。</p>
 <p>実はブログ用サイドバーの編集は一筋縄ではいかない。
 簡単にいうとどこかにファイルがあってそれを編集すれば画面に反映されるという仕様ではない。</p>
@@ -58,7 +58,7 @@
 「Ver.11.0.0編集しまくっていて使い物になりません」とならないようには注意しておきたい。</p></div></div>
 <p>では、編集する方法がないのかと言われればそうではない
 Docusaurusにはスウィズリングという手段がありそれを用いれば中身を編集できる。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="スウィズリング">スウィズリング<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#%E3%82%B9%E3%82%A6%E3%82%A3%E3%82%BA%E3%83%AA%E3%83%B3%E3%82%B0" class="hash-link" aria-label="スウィズリング への直接リンク" title="スウィズリング への直接リンク">​</a></h3>
+<div class="advertisement"></div><h3 class="anchor anchorWithStickyNavbar_loeA" id="スウィズリング">スウィズリング<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#%E3%82%B9%E3%82%A6%E3%82%A3%E3%82%BA%E3%83%AA%E3%83%B3%E3%82%B0" class="hash-link" aria-label="スウィズリング への直接リンク" title="スウィズリング への直接リンク">​</a></h3>
 <p>スウィズリングを用いいると<code>@docusaurus/theme-classic</code>の内部だけではあるのだが変数することができるようになる。</p>
 <p>スウィズリングのやり方はプロジェクトのディレクトリで以下のコマンドを実行するだけである。</p>
 <div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">% npm run swizzle @docusaurus/theme-classic ${編集したい部分} -- --eject</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
@@ -68,7 +68,7 @@ Docusaurusにはスウィズリングという手段がありそれを用いれ�
 <p>そのコマンドを実行すると<code>src/theme</code>選択したディレクトリが複製される。</p>
 <p>それを編集してしまえばブログ用の際dーバーが編集できる。</p>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>備考</div><div class="admonitionContent_BuS1"><p>一応docusaurusのスウィズリングの仕組みについて解説しておく</p><p>基本的にはビルドされる際は<code>node_module</code>内のコードをもとして実行されるのだが、<code>src</code>ディレクトリ内にテーマファイルがある場合そちらが優先される仕組みになっているらしい</p><p><code>node_module</code>のコードのコピーを作成することで編集を可能にした上で優先的に表示させるという仕組みになっている。</p></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="グルーピングを変更したコードを作成">グルーピングを変更したコードを作成<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%94%E3%83%B3%E3%82%B0%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%9F%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E4%BD%9C%E6%88%90" class="hash-link" aria-label="グルーピングを変更したコードを作成 への直接リンク" title="グルーピングを変更したコードを作成 への直接リンク">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_loeA" id="グルーピングを変更したコードを作成">グルーピングを変更したコードを作成<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%94%E3%83%B3%E3%82%B0%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%9F%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E4%BD%9C%E6%88%90" class="hash-link" aria-label="グルーピングを変更したコードを作成 への直接リンク" title="グルーピングを変更したコードを作成 への直接リンク">​</a></h3>
 <p>ここでやっとグルーピングの内容を変更できるようになる。
 デフォルトだと年ごとのグルーピングになっていて、2025年なら何月に投稿していても2025年になってしまう。</p>
 <p>正直何月かまでデフォルトで分割できて欲しいところだったがそうではないらしいので、そこを変更していきたいと思う</p>
@@ -77,7 +77,7 @@ Docusaurusにはスウィズリングという手段がありそれを用いれ�
 <!-- -->ファイルは<code>src/theme/BlogDidebarContent/index.tsx</code>である</p>
 <p>基本的には<code>year</code>になっている部分を<code>month</code>に変えるだけ
 しかしそれがうまくいかない場所が三箇所ある</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="yeargroupheadingclassname">yearGroupHeadingClassName<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#yeargroupheadingclassname" class="hash-link" aria-label="yearGroupHeadingClassName への直接リンク" title="yearGroupHeadingClassName への直接リンク">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_loeA" id="yeargroupheadingclassname">yearGroupHeadingClassName<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#yeargroupheadingclassname" class="hash-link" aria-label="yearGroupHeadingClassName への直接リンク" title="yearGroupHeadingClassName への直接リンク">​</a></h4>
 <p>まずは</p>
 <div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">function BlogSidebarContent({</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    items,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    yearGroupHeadingClassName,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    ListComponent,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}: Props): ReactNode {</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>とある部分。</p>
@@ -91,14 +91,14 @@ Docusaurusにはスウィズリングという手段がありそれを用いれ�
 <div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">function BlogSidebarContent({</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    items,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    yearGroupHeadingClassName: monthGroupHeadingClassName,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    ListComponent,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}: Props): ReactNode {</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>というふうにコードを書いてあげると、このメソッドの内部では<code>monthGroupHeadingClassName</code>という名前で使用することができるようになる。<br>
 <!-- -->もしどうしても気になるようなら使ってみるといい。</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="themeconfigblogsidebargroupbyyear">themeConfig.blog.sidebar.groupByYear<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#themeconfigblogsidebargroupbyyear" class="hash-link" aria-label="themeConfig.blog.sidebar.groupByYear への直接リンク" title="themeConfig.blog.sidebar.groupByYear への直接リンク">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_loeA" id="themeconfigblogsidebargroupbyyear">themeConfig.blog.sidebar.groupByYear<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#themeconfigblogsidebargroupbyyear" class="hash-link" aria-label="themeConfig.blog.sidebar.groupByYear への直接リンク" title="themeConfig.blog.sidebar.groupByYear への直接リンク">​</a></h4>
 <p>二つ目は</p>
 <div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">const themeConfig = useThemeConfig();</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">if (themeConfig.blog.sidebar.groupByYear) {</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>という記述がある部分だ<br>
 <!-- -->本当に残念なのだが<code>groupByYear</code>は現状私の知識では変更ができない。</p>
 <p>許せない...</p>
 <p>申し訳ないがここは諦めて欲しい</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="groupblogsidebaritemsbyyear">groupBlogSidebarItemsByYear<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#groupblogsidebaritemsbyyear" class="hash-link" aria-label="groupBlogSidebarItemsByYear への直接リンク" title="groupBlogSidebarItemsByYear への直接リンク">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_loeA" id="groupblogsidebaritemsbyyear">groupBlogSidebarItemsByYear<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#groupblogsidebaritemsbyyear" class="hash-link" aria-label="groupBlogSidebarItemsByYear への直接リンク" title="groupBlogSidebarItemsByYear への直接リンク">​</a></h4>
 <p>最後、三つ目</p>
 <div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">const itemsByYear= groupBlogSidebarItemsByYear(items);</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>左側の<code>itemsByYear</code>は単純に<code>itemsByMonth</code>に変更してしまおう。</p>
@@ -132,7 +132,7 @@ Docusaurusにはスウィズリングという手段がありそれを用いれ�
 <p>に変更すればいい</p>
 <p>あとはメソッド内の<code>year</code>を<code>month</code>に変更してしまおう</p>
 <p><strong>これで、月ごとにグルーピングするメソッドの完成だ！！！</strong></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="表示数の変更">表示数の変更<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#%E8%A1%A8%E7%A4%BA%E6%95%B0%E3%81%AE%E5%A4%89%E6%9B%B4" class="hash-link" aria-label="表示数の変更 への直接リンク" title="表示数の変更 への直接リンク">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_loeA" id="表示数の変更">表示数の変更<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#%E8%A1%A8%E7%A4%BA%E6%95%B0%E3%81%AE%E5%A4%89%E6%9B%B4" class="hash-link" aria-label="表示数の変更 への直接リンク" title="表示数の変更 への直接リンク">​</a></h3>
 <p>今週最後はブログ用サイドバーの表示数の変更方法だ</p>
 <p>まずは、<code>docusaurus.config.ts</code>を開こう</p>
 <p>その中で</p>
@@ -140,7 +140,7 @@ Docusaurusにはスウィズリングという手段がありそれを用いれ�
 <p>とあると思うので「ここに追記」の部分に<code>blogSidebarCount: 'ALL',</code>と記述しよう。</p>
 <p>そうすれば今まで書いた全ての記事が表示されるようになる。</p>
 <p>仮に数を指定したい場合は<code>blogSidebarCount: 100</code>のように記述すればいい</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="〆">〆<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#%E3%80%86" class="hash-link" aria-label="〆 への直接リンク" title="〆 への直接リンク">​</a></h2>
+<div class="advertisement"></div><h2 class="anchor anchorWithStickyNavbar_loeA" id="〆">〆<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-21#%E3%80%86" class="hash-link" aria-label="〆 への直接リンク" title="〆 への直接リンク">​</a></h2>
 <p>いや〜今回は結構ヘビーだった</p>
 <p><code>node_module</code>の扱いがなんせややこしい<br>
 <!-- -->そんな中で少しずつ見やすいブログを作っていこうと思っているのでよければこれからも見にきてほしい</p>
@@ -154,7 +154,7 @@ Docusaurusにはスウィズリングという手段がありそれを用いれ�
             <description><![CDATA[今週の週次報告を始めていこうと思う！！]]></description>
             <content:encoded><![CDATA[<p>今週の週次報告を始めていこうと思う！！
 今回に限り先週分の学習内容も反映する。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="目次">目次<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#%E7%9B%AE%E6%AC%A1" class="hash-link" aria-label="目次 への直接リンク" title="目次 への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_loeA" id="目次">目次<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#%E7%9B%AE%E6%AC%A1" class="hash-link" aria-label="目次 への直接リンク" title="目次 への直接リンク">​</a></h2>
 <ul>
 <li>Docusaurusとgithub pagesを用いたドキュメント兼ブログの立ち上げ方<!-- -->
 <ul>
@@ -167,30 +167,30 @@ Docusaurusにはスウィズリングという手段がありそれを用いれ�
 <li>Docusaurusのナビゲーションバーの設定方法</li>
 <li>今後のブログ方針</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="docusaurusとgithub-pagesを用いたドキュメント兼ブログの立ち上げ方法">Docusaurusとgithub pagesを用いたドキュメント兼ブログの立ち上げ方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#docusaurus%E3%81%A8github-pages%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E5%85%BC%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E7%AB%8B%E3%81%A1%E4%B8%8A%E3%81%92%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Docusaurusとgithub pagesを用いたドキュメント兼ブログの立ち上げ方法 への直接リンク" title="Docusaurusとgithub pagesを用いたドキュメント兼ブログの立ち上げ方法 への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_loeA" id="docusaurusとgithub-pagesを用いたドキュメント兼ブログの立ち上げ方法">Docusaurusとgithub pagesを用いたドキュメント兼ブログの立ち上げ方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#docusaurus%E3%81%A8github-pages%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E5%85%BC%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E7%AB%8B%E3%81%A1%E4%B8%8A%E3%81%92%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Docusaurusとgithub pagesを用いたドキュメント兼ブログの立ち上げ方法 への直接リンク" title="Docusaurusとgithub pagesを用いたドキュメント兼ブログの立ち上げ方法 への直接リンク">​</a></h2>
 <p>何を学んだのかをメモがわりにここに記載していきたいと思う</p>
 <p>具体的な手順に関しては後々ドキュメントに残そうと思うのでここには記述しないでおく</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="docusaurusのインストール方法">Docusaurusのインストール方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#docusaurus%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Docusaurusのインストール方法 への直接リンク" title="Docusaurusのインストール方法 への直接リンク">​</a></h3>
+<div class="advertisement"></div><h3 class="anchor anchorWithStickyNavbar_loeA" id="docusaurusのインストール方法">Docusaurusのインストール方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#docusaurus%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Docusaurusのインストール方法 への直接リンク" title="Docusaurusのインストール方法 への直接リンク">​</a></h3>
 <p>インストール方法に関してはそんなに難しいとは思わなかった。
 公式ドキュメントにあるコマンドを実行すれば良いだけだったからだ</p>
 <p>強いていうのであればGitHubリポジトリを作成、クローンしてからだとプロジェクト直下にファイルが生成されないのが難点だった。
 もしかすると方法があるかもしれないのだが「すでにファイルが存在しています。」というエラーが出てしまう..ﾄﾞｳｼﾃ</p>
 <p>結局作成したファイルをGitHubのリポジトリにpushする形になった。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="github-pagesの初期設定">github pagesの初期設定<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#github-pages%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A" class="hash-link" aria-label="github pagesの初期設定 への直接リンク" title="github pagesの初期設定 への直接リンク">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_loeA" id="github-pagesの初期設定">github pagesの初期設定<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#github-pages%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A" class="hash-link" aria-label="github pagesの初期設定 への直接リンク" title="github pagesの初期設定 への直接リンク">​</a></h3>
 <p>github pagesの初期設定もそんなに難しくは感じなかった。<br>
 <!-- -->表示するブランチを設定してあげて少し待てば簡単に表示できる。</p>
 <p>ただし注意しないといけないのは初期設定自体は簡単なのだが期待通りの画面表示をするのは結構骨が折れるということ。<br>
 <!-- -->そのあたりは、デプロイにあたってのトラブルの可能性が高い。</p>
 <p>もし <code>README</code> のみが表示されている場合はデプロイに問題がある可能性が高い。<br>
 <!-- -->そうなっている場合はこの段階はとりあえずクリアしたとしておいた方がいいと思う。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="docusaurusの記事をgithub-pagesに上げるための初期設定">Docusaurusの記事をgithub pagesに上げるための初期設定<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#docusaurus%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92github-pages%E3%81%AB%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A" class="hash-link" aria-label="Docusaurusの記事をgithub pagesに上げるための初期設定 への直接リンク" title="Docusaurusの記事をgithub pagesに上げるための初期設定 への直接リンク">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_loeA" id="docusaurusの記事をgithub-pagesに上げるための初期設定">Docusaurusの記事をgithub pagesに上げるための初期設定<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#docusaurus%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92github-pages%E3%81%AB%E4%B8%8A%E3%81%92%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A" class="hash-link" aria-label="Docusaurusの記事をgithub pagesに上げるための初期設定 への直接リンク" title="Docusaurusの記事をgithub pagesに上げるための初期設定 への直接リンク">​</a></h3>
 <p>ここからが結構大変
 変更しないといけない項目が結構存在している。</p>
 <p>これらを設定する方法はいくつか存在し、configをいじる方法と、環境変数をいじる方法、IDEで実行する際の環境変数を設定する方法などがある。<br>
 <!-- -->個人的に好きなのはIDEで管理する方法</p>
 <p>変更が楽な上確認もすぐできる。<br>
 <!-- -->コマンドに慣れている人なんかはローカルの環境変数をいじるのが楽なのかもしれない。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ビルドデプロイの方法">ビルド、デプロイの方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#%E3%83%93%E3%83%AB%E3%83%89%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%81%AE%E6%96%B9%E6%B3%95" class="hash-link" aria-label="ビルド、デプロイの方法 への直接リンク" title="ビルド、デプロイの方法 への直接リンク">​</a></h3>
+<div class="advertisement"></div><h3 class="anchor anchorWithStickyNavbar_loeA" id="ビルドデプロイの方法">ビルド、デプロイの方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#%E3%83%93%E3%83%AB%E3%83%89%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%81%AE%E6%96%B9%E6%B3%95" class="hash-link" aria-label="ビルド、デプロイの方法 への直接リンク" title="ビルド、デプロイの方法 への直接リンク">​</a></h3>
 <p>ビルド、デプロイに関してはやること自体はとても簡単なのだが、エラーが発生した際に解消するのが厄介</p>
 <p>ここでエラーが出ると初期設定に間違いがないかの確認をしないといけなかったりmodule内部をいじらないといけなかったり...</p>
 <p>実際私はnode_module内部を少し自分用に変更している。<br>
@@ -198,15 +198,15 @@ Docusaurusにはスウィズリングという手段がありそれを用いれ�
 <p>個人で開発しているから使える最終奥義的な変更を加えてしまっている。</p>
 <p>そのためGitHub Actionsを用いたデプロイ方法を勉強できればいいなと個人的には思っている。<br>
 <!-- -->ここから頑張ることになるだろう</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="docusaurusのナビゲーションバーの設定方法">Docusaurusのナビゲーションバーの設定方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#docusaurus%E3%81%AE%E3%83%8A%E3%83%93%E3%82%B2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%90%E3%83%BC%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Docusaurusのナビゲーションバーの設定方法 への直接リンク" title="Docusaurusのナビゲーションバーの設定方法 への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_loeA" id="docusaurusのナビゲーションバーの設定方法">Docusaurusのナビゲーションバーの設定方法<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#docusaurus%E3%81%AE%E3%83%8A%E3%83%93%E3%82%B2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%90%E3%83%BC%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Docusaurusのナビゲーションバーの設定方法 への直接リンク" title="Docusaurusのナビゲーションバーの設定方法 への直接リンク">​</a></h2>
 <p>今週学んだことの最後はDocusaurusのナビゲーションバーの設定方法だ。
 今回は試しに資格勉強という項目を追加してみた。</p>
 <p>今後撮ってみたい資格なんかもたくさんあるからここにちょっとばかしメモしていけたらなと思う。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="今後のブログ方針">今後のブログ方針<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#%E4%BB%8A%E5%BE%8C%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E6%96%B9%E9%87%9D" class="hash-link" aria-label="今後のブログ方針 への直接リンク" title="今後のブログ方針 への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_loeA" id="今後のブログ方針">今後のブログ方針<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#%E4%BB%8A%E5%BE%8C%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E6%96%B9%E9%87%9D" class="hash-link" aria-label="今後のブログ方針 への直接リンク" title="今後のブログ方針 への直接リンク">​</a></h2>
 <p>ブログではこのように１週間で学んだことを書き記していこうと思う</p>
 <p>その後ドキュメントを作成し、翌週以降で作成したことを発表できればいいなと思っている。</p>
 <p>この辺りは試行錯誤をしてかなと思っている。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="〆">〆<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#%E3%80%86" class="hash-link" aria-label="〆 への直接リンク" title="〆 への直接リンク">​</a></h2>
+<div class="advertisement"></div><h2 class="anchor anchorWithStickyNavbar_loeA" id="〆">〆<a href="https://futaboshioto.github.io/ottotto-blog/blog/blog-2025-04-07#%E3%80%86" class="hash-link" aria-label="〆 への直接リンク" title="〆 への直接リンク">​</a></h2>
 <p>今回はこの辺りにしよう。
 変な口調の変なやつが書くブログだが興味があればこれからもみていってほしい。</p>
 <p>ここまで読んでくれてありがとう。</p>]]></content:encoded>
