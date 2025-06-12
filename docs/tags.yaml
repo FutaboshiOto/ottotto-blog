@@ -7,3 +7,13 @@ development:
   label: '開発'
   permalink: '/development'
   description: 'WEBアプリ開発に関する記事'
+
+test:
+  label: 'テスト'
+  permalink: '/test'
+  description: 'テストに関する記事'
+
+automation:
+  label: '自動化'
+  permalink: '/automation'
+  description: '自動化に関する記事'
